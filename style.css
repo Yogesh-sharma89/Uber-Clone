@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer utilities{
+    .font-my{
+        font-family: "Manrope", sans-serif;
+    }
+    .sm-my{
+       @media only screen and  (min-width:200px) and (max-width:1024px){
+         display:none;
+       }
+    }
+    .sm-me{
+        @media only screen and  (min-width:200px) and (max-width:1024px){
+         display:block;
+       }
+    }
+    .ride-gayab{
+        @media only screen and (min-width:100px) and (max-width:880px){
+            display:none;
+        }
+    }
+    .ride-show{
+         @media only screen and (min-width:881px) {
+            display:flex;
+        }
+    }
+    
+}
+
